@@ -22,9 +22,6 @@ void Backtrack(vector<ll>v1, long long max1,ll start) {
    
 }
 
-
-
-
 int main() {
     int t;
     cin >> t;
