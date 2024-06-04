@@ -9,7 +9,7 @@ int LIS(vector<int>v,int i,int last) {
     }
     int take = 0;
     int leave = LIS(v,i+1,last);
-    if (v[i] >=last) { 
+    if (v[i] >last) { 
     take = 1 + LIS(v, i + 1, v[i]); }
     return max(leave, take);
     
