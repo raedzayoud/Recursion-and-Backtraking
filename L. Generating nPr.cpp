@@ -3,7 +3,7 @@
 #include <algorithm>
 #define ll long long
 using namespace std;
-
+ 
 vector<vector<int>> v1;
 void Backtrack(vector<vector<int>>& v1, int nums, vector<int>& v, int maxSize) {
     if (v.size() == maxSize) {
@@ -18,7 +18,7 @@ void Backtrack(vector<vector<int>>& v1, int nums, vector<int>& v, int maxSize) {
         }
     }
 }
-
+ 
 int main() {
     ll x, y;
     cin >> x >> y;
@@ -30,6 +30,6 @@ int main() {
         }
         cout << endl;
     }
-
+ 
     return 0;
 }
